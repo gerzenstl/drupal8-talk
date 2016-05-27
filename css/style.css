@@ -51,7 +51,7 @@ body.drupal-8-slides .step {
   background-image: none;
 }
 body.drupal-8-slides .step.cover-slides {
-  background: #fff url(../img/logo-d8.svg) no-repeat 250px 25px;
+  background: #fff url(../img/logo-d8.svg) no-repeat center 25px;
   background-size: 400px;
 }
 
@@ -67,8 +67,16 @@ img.slide-img.meme {
 
 .slide .slide-title {
   font-size: 50px;
-  color: #48b4fb;
   margin: 0 0 50px 0;
+}
+
+.slide .slide-title,
+.slide-link {
+  color: #48b4fb;
+}
+
+.slide-link {
+  text-shadow: none;
 }
 
 .slide ul li.dot {
@@ -85,9 +93,23 @@ img.slide-img.meme {
   height: 685px;
 }
 
-.slide-img.vagrant-workflow {
-  margin-top: 120px;
+.slide-img.drupal-learncurve {
+  width: 600px;
+  margin: 40px auto;
+  display: block;
 }
+
+.slide-img.drupal-support-lifetime {
+  margin: 35px auto 0;
+  width: 250px;
+  display: block;
+}
+
+img.slide-img.drupal-support-lifetime.bottom {
+  margin: 10px auto;
+  width: 100%;
+}
+
 .slide-img.vagrant-workflow.animation-gif {
   margin: 120px auto 0;
   display: block;
