@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1024" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Comenzando con Drupal 8</title>
+
+  <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+  <meta name="author" content="Bartek Szopka" />
+<link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /> -->
+
+  <link href="css/impress-demo.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+  <body class="impress-not-supported drupal-8-slides">
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+    </div>
+
+    <div id="impress">
+      <div class="step slide cover-slides">
+        <div class="cover-slides">        
+          <q><h1 class="center">Comenzando con Drupal 8</h1></q>
+          <q class="autor-line"><p id="slides-author">Luis Gerzenstein</p>
+            <img class="company-logo center" src="img/42mate-logo.png" alt="42mate" title="42mate"></q>
+        </div>
+      </div>
+      
+      <div class="step slide" data-y="1000">
+        <div class="slide-title">Acerca de ...</div>
+        <ul>
+          <li class="dot"><p>Sr. PHP developer en 42mate</p></li>
+          <li class="dot"><p>Actualmente trabajando en: </p></li>
+          <li class="dot"><p>Anteriormente: </p></li>
+          <li class="dot"><p>Full stack and beyond.</p></li>
+          <li class="dot"><p></p></li>
+        </ul>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+      
+      <div class="step slide" data-y="2000">
+        <div class="slide-title">Antes de comenzar, unas preguntas ...</div>
+        <q><p></p></q>
+        <q><p>No sean timidos al responder.</p></q>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+      
+      <div class="step slide" data-x="1500">
+        <div class="slide-title">Drupal 8</div>
+        <q><p>“Es un sistema gestor de contenidos (CMS) que es open source, desarrollado y mantenido por una comunidad de mas de 35.000 devs alrededor del mundo que han contribuido en el proyecto.”</p></q>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+   
+      <div class="step slide" data-x="3000">
+        <div class="slide-title">Drupal 8, un poco de historia.</div>
+        <ul>
+          <li class="dot"><p>Creado por Dries Buytaert, en el 2000.</p></li>
+          <li class="dot"><p>Open source CMF/CMS</p></li>
+          <li class="dot"><p>Licencia GNU GPL</p></li>
+          <li class="dot"><p>Enorme soporte de la comunidad.</p></li>
+          <li class="dot"><p>Buena documentación y muchos recursos desde donde aprender.</p></li>
+          <li class="dot"><p>Lanzamiento de Drupak 8: Noviempre 2015</p></li>
+        </ul>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+      
+      <div class="step slide" data-x="3000" data-y="1000">
+        <div class="slide-title">Quien usa Drupal?</div>
+        <img class="slide-img meme" src="img/using-drupal.png" alt="Drupal 8 workflow" title="Drupal 8 workflow">
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+      
+      <!-- <div class="step slide wide-diagram" data-x="3000" data-y="2000">
+        <img class="slide-img drupal-workflow" src="" alt="Drupal 8 workflow" title="Drupal 8 workflow">
+      </div> -->
+
+      <div class="step slide" data-x="4500">
+        <div class="slide-title">Drupal 8</div>
+        <p class="slide-subtitle">Mejoras para usuarios finales.</p>
+        <ul>
+          <li class="dot"><p>Iniciativa SPARK para manejo de contendio.</p></li>
+          <li class="dot"><p>WYSIWYG en el core (CKEditor).</p></li>
+          <li class="dot"><p>Edición "in-place" de contenido.</p></li>
+          <li class="dot"><p>Mobile First.</p></li>
+          <li class="dot"><p>Responsive themes, image,...</p></li>
+          <li class="dot"><p>Backend Mobile friendly.</p></li>
+        </ul>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+
+      <div class="step slide" data-x="6000">
+        <div class="slide-title">Drupal 8</div>
+        <p class="slide-subtitle">Mejoras para site builders.</p>
+        <ul>
+          <li class="dot"><p>Nuevo sistema de bloques.</p></li>
+          <li class="dot"><p>Views, Entity reference y muchos otros módulos de la comunidad <b>ahora en el Core</b>.</p></li>
+          <li class="dot"><p>Nuevos tipos de entidades.</p></li>
+          <li class="dot"><p>Nuevos tipos de campos (datetime, link, phone, comments,..).</p></li>
+          <li class="dot"><p>Forms ahora con tipos de display.</p></li>
+          <li class="dot"><p>Modulo Tour.</p></li>
+          <li class="dot"><p>Multiples mejoras en Multilenguaje++.</p></li>
+        </ul>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+
+      <div class="step slide" data-x="7500">
+        <div class="slide-title">Drupal 8</div>
+        <p class="slide-subtitle">Mejoras para diseñadores y front-end devs</p>
+        <ul>
+          <li class="dot"><p>Nuevos elementos HTML5 en los fields.</p></li>
+          <li class="dot"><p>Nuevas librerias integradas: Backbone.js, Modernizr, Twig, normalize.css</p></li>
+          <li class="dot"><p>jQuery 2.0 (Desacoplado)</p></li>
+          <li class="dot"><p>No mas soporte para <strike>IE 6</strike> & <strike>IE 7</strike> (y prácticamente <strike>IE 8</strike>)</p></li>
+        </ul>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+
+      <div class="step slide" data-x="9000">
+        <div class="slide-title">Drupal 8</div>
+        <p class="slide-subtitle">Mejoras para desarolladores</p>
+        <ul>
+          <li class="dot"><p>Configuration Management (CMI).</p></li>
+          <li class="dot"><p>Modulo de migración en Core (Migration path).</p></li>
+          <li class="dot"><p>RESTFul Web services (en Core).</p></li>
+          <li class="dot"><p>Nuevas APIs.</p></li>
+          <li class="dot"><p>Performance++. Nuevas caches y Big Pipe (8.1).</p></li>
+          <li class="dot"><p>Symfony components: HttpFoundation, HttpKernel, DependencyInjection, EventDispatcher, Routing, Yaml</p></li>
+          <li class="dot"><p>Guzzle</p></li>
+        </ul>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+      
+      <div class="step slide" data-x="9000" data-y="1000">
+        <div class="slide-title">Drupal 8</div>
+        <p class="slide-subtitle">Mas Mejoras</p>
+        <ul>
+          <li class="dot">
+            <p>"Proudly Found Elsewhere"</p>
+            <ul>
+              <li><p>Codigo OOP moderno (clases, herencia, interfaces), MVC,</p></li>
+              <li><p>Ultimos standards en PHP (PSR-0, namespaces, traits).</p></li>
+              <li><p>Buenas librerias de 3ros: Composer, PHPunit, Guzzle, Zend Feed, ...</p></li>
+            </ul>
+          </li>
+        </ul>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+   
+      <div class="step slide" data-x="15000">
+        <div class="slide-title">Drupal 8</div>
+        <p class="slide-subtitle">Nuevas cosas</p>
+        <ul>
+          <li class="dot"><p>OOP Avanzado y MVC.</p></li>
+          <li class="dot"><p>Symfony components, Twig, PHPUnit, Guzzle, Composer, YAML</p></li>
+          <li class="dot"><p>Configuration Management (CMI), Schema.org, RESTful webservices, WYSIWYG, , +Blocks, +Multilingual</p></li>
+          <li class="dot"><p>On frontend: Backbone.js, Responsive design, jQuery 2.0(desacoplado)</p></li>
+        </ul>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+
+      <div class="step slide" data-x="16500">
+        <div class="slide-title">Drupal 8</div>
+        <p class="slide-subtitle">Debo arrancar con Drupal 8?</p>
+        <ul>
+          <li class="dot"><p><b>Depende!</b></p></li>
+          <li class="dot"><p>Complejidad/tamaño del proyecto.</p></li>
+          <li class="dot"><p>Que modulos contrib va a necesitar?</p></li>
+          <li class="dot"><p>Experiencia del desarrollador o equipo.</li>
+          <li class="dot"><p>Site nuevo o existente (existente == migración)</p></li>          
+          <li class="dot"><p>Autores/contribuyentes de un modulo de la comunidad.</p></li>          
+          <li class="dot"><p></p></li>          
+        </ul>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+
+      <div class="step slide" data-x="18000">
+        <div class="slide-title">Drupal 8</div>
+        <p class="slide-subtitle">Breve demo de una instalación</p>
+        <ol>
+          <li class="dot"><p>1) Comenzar con drupal -> https://www.drupal.org/start</p></li>
+          <li class="dot"><p>2) Verificar los requerimientos mínimos -> https://www.drupal.org/requirements</p></li>
+          <li class="dot"><p>3) Descargar .tar.gz o .zip</p></li>
+          <li class="dot"><p>4) Descomprimir archivo (dentro de la carpeta donde el web server tenga como root o mejor aún un VirtualHost)</p></li>
+          <li class="dot"><p>5) Crear una base de datos con correspondiente usuario a la misma.</p></li>
+          <li class="dot"><p>6) Acceder al sitio Drupal.</p></li>
+          <li class="dot"><p>7) Completar los pasos de instalación.</p></li>
+          <li class="dot"><p>8) A comenzar a armar ese sitio!</p></li>
+        </ol>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+
+      <div class="step slide" data-x="19500">
+        <div class="slide-title">Drupal 8</div>
+        <p class="slide-subtitle">Mas info:</p>
+        <ul>
+          <li class="dot"><p><a href="https://www.drupal.org/8" target="_blank">https://www.drupal.org/8</a> - Website de Drupal 8</p></li>
+          <li class="dot"><p><a href="https://www.drupal.org/forum" target="_blank">https://www.drupal.org/forum</a> - Foro oficial de Drupal.</p></li>          
+          <li class="dot"><p><a href="http://drupal.stackexchange.com" target="_blank">http://drupal.stackexchange.com</a> Drupal answers (Stack Overflow)</p></li>
+          <li class="dot"><p><a href="" target="_blank"></a> - </p></li>
+        </ul>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+      
+      <div class="step slide" data-x="21000">
+        <q class="single-msje-slide"><p class="center">Preguntas?</p></q>
+        <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+      </div>
+      
+      <div class="step slide" data-x="22500">
+        <q class="single-msje-slide"><p class="center">Gracias!</p></q>
+      </div>
+      <img class="company-logo-mini side-bottom" src="img/42mate-logo-mini.png" alt="42mate" title="42mate">
+    </div>
+
+    <div class="hint">
+        <p>Use a spacebar or arrow keys to navigate</p>
+    </div>
+    <script>
+    if ("ontouchstart" in document.documentElement) { 
+        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+    }
+    </script>
+    <script src="js/impress.js"></script>
+    <script>
+      impress().init();
+      document.addEventListener('impress:stepenter', function(e){
+        if (typeof timing !== 'undefined') clearInterval(timing);
+        var duration = (e.target.getAttribute('data-transition-duration') ? e.target.getAttribute('data-transition-duration') : 2000); // use the set duration or fallback to 2000ms
+        timing = setInterval(impress.next, duration);
+      });
+    </script>
+  </body>
+</html>

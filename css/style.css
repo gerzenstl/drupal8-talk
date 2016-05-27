@@ -1,0 +1,120 @@
+/* 
+    Document   : style
+    Created on : Sep 26, 2013, 2:55:50 AM
+    Author     : luis
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body.drupal-8-slides {
+  background: #f7f6f1 url(../img/bg-ltblue-city.jpg) no-repeat center;
+  
+}
+body.drupal-8-slides,
+body.drupal-8-slides .step {
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+root { 
+  display: block;
+}
+
+.slide h1,
+.slide p {
+  color: #333;
+}
+
+#slides-author {
+  font-size: 25px;
+  color: #48b4fb;
+}
+
+.slide {
+  background-color: #fff;
+  opacity: 0.5;
+  background-image: none;
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+
+.cover-slides {
+  margin-top: 420px;
+}
+
+body.drupal-8-slides .step {
+  background-color: #fff;
+  background-image: none;
+}
+body.drupal-8-slides .step.cover-slides {
+  background: #fff url(../img/logo-d8.svg) no-repeat 250px 25px;
+  background-size: 400px;
+}
+
+.slide h1.center,
+.slide q.center,
+.slide p.center {
+  text-align: center;  
+}
+
+img.slide-img.meme {
+    width: 770px;
+}
+
+.slide .slide-title {
+  font-size: 50px;
+  color: #48b4fb;
+  margin: 0 0 50px 0;
+}
+
+.slide ul li.dot {
+  list-style: initial;
+  margin: 10px 0;
+}
+
+.slide ul li ul li {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+.slide-img.vagrant-diagram {
+  height: 685px;
+}
+
+.slide-img.vagrant-workflow {
+  margin-top: 120px;
+}
+.slide-img.vagrant-workflow.animation-gif {
+  margin: 120px auto 0;
+  display: block;
+}
+
+.step.slide.wide-diagram {
+  padding: 0 64px;
+}
+
+.slide-subtitle {
+  font-size: 35px;
+  margin: 0 0 10px 0;
+}
+
+.sorry {
+  font-size: 40px;
+}
+
+.slide .company-logo {
+  background: #fff url(../img/42mate-logo.png) no-repeat center;
+}
+
+.slide img.company-logo-mini.side-bottom {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+q.autor-line {
+  margin-top: 50px;
+  line-height: 45px;
+  text-align: center;
+}
