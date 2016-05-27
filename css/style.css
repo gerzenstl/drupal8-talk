@@ -8,7 +8,10 @@
 
 body.drupal-8-slides {
   background: #f7f6f1 url(../img/bg-ltblue-city.jpg) no-repeat center;
-  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 body.drupal-8-slides,
 body.drupal-8-slides .step {
