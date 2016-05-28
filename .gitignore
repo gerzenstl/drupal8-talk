@@ -1,0 +1,5 @@
+.idea
+.vagrant
+.sass-cache
+.DS_Store
+nbproject
