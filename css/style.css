@@ -132,6 +132,17 @@ img.slide-img.drupal-support-lifetime.bottom {
   background: #fff url(../img/42mate-logo.png) no-repeat center;
 }
 
+.fixed-place-wrapper {
+  position: relative;
+} 
+
+.slide .companies-logos {
+    height: 50px;
+    position: absolute;
+    left: 370px;
+    bottom: -5px;
+}
+
 .slide img.company-logo-mini.side-bottom {
   position: absolute;
   bottom: 10px;
